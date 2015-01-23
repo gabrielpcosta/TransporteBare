@@ -1,12 +1,12 @@
-﻿<xapCache source="G:\Desenvolvimento\ManausBus\ManausBus\Bin\Debug\ManausBus_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="23/01/2015 19:34:47">
-  <file source="G:\Desenvolvimento\ManausBus\ManausBus\obj\Debug\ManausBus.dll" archivePath="ManausBus.dll" lastWriteTime="23/01/2015 19:34:46" />
-  <file source="G:\Desenvolvimento\ManausBus\ManausBus\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="23/01/2015 18:54:24" />
-  <file source="G:\Desenvolvimento\ManausBus\ManausBus\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="23/01/2015 18:54:24" />
-  <file source="G:\Desenvolvimento\ManausBus\ManausBus\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="23/01/2015 18:54:24" />
-  <file source="G:\Desenvolvimento\ManausBus\ManausBus\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="23/01/2015 18:54:24" />
-  <file source="G:\Desenvolvimento\ManausBus\ManausBus\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="23/01/2015 18:54:24" />
-  <file source="G:\Desenvolvimento\ManausBus\ManausBus\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="23/01/2015 18:54:32" />
-  <file source="G:\Desenvolvimento\ManausBus\ManausBus\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="23/01/2015 18:54:24" />
-  <file source="G:\Desenvolvimento\ManausBus\ManausBus\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="23/01/2015 18:54:24" />
-  <file source="G:\Desenvolvimento\ManausBus\ManausBus\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="23/01/2015 18:54:33" />
+﻿<xapCache source="G:\Desenvolvimento\TransporteBare\ManausBus\ManausBus\Bin\Debug\ManausBus_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="23/01/2015 21:29:52">
+  <file source="G:\Desenvolvimento\TransporteBare\ManausBus\ManausBus\obj\Debug\ManausBus.dll" archivePath="ManausBus.dll" lastWriteTime="23/01/2015 21:28:38" />
+  <file source="G:\Desenvolvimento\TransporteBare\ManausBus\ManausBus\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="23/01/2015 18:54:24" />
+  <file source="G:\Desenvolvimento\TransporteBare\ManausBus\ManausBus\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="23/01/2015 18:54:24" />
+  <file source="G:\Desenvolvimento\TransporteBare\ManausBus\ManausBus\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="23/01/2015 18:54:24" />
+  <file source="G:\Desenvolvimento\TransporteBare\ManausBus\ManausBus\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="23/01/2015 18:54:24" />
+  <file source="G:\Desenvolvimento\TransporteBare\ManausBus\ManausBus\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="23/01/2015 18:54:24" />
+  <file source="G:\Desenvolvimento\TransporteBare\ManausBus\ManausBus\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="23/01/2015 21:28:02" />
+  <file source="G:\Desenvolvimento\TransporteBare\ManausBus\ManausBus\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="23/01/2015 18:54:24" />
+  <file source="G:\Desenvolvimento\TransporteBare\ManausBus\ManausBus\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="23/01/2015 18:54:24" />
+  <file source="G:\Desenvolvimento\TransporteBare\ManausBus\ManausBus\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="23/01/2015 21:29:52" />
 </xapCache>
