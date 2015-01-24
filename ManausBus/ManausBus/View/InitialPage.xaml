@@ -12,23 +12,34 @@
     SupportedOrientations="Portrait" Orientation="Portrait"
     mc:Ignorable="d"
     shell:SystemTray.IsVisible="True">
-
+   
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
         <!--TitlePanel contains the name of the application and page title-->
-        <StackPanel Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
-        </StackPanel>
+        <!--<StackPanel Grid.Row="0" Background="Green">
+            <TextBlock Text="ManausBUS" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Text="Página Inicial" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>-->
 
+        <Image Grid.Row="0" Source="appHeader.png" Stretch="Fill"></Image>
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-
+            <maps:Map/>
+        </Grid>
+        
+        <Grid Grid.Row="2" HorizontalAlignment="Center">
+            <StackPanel Orientation="Horizontal" Background="#5EB55A" Height="111" Width="Auto">
+                <!--<Button Background="#389533" Margin="10">Ônibus</Button>
+                <Button Background="#389533" Margin="10">Paradas</Button>
+                <Button Background="#389533" Margin="10">Configurações</Button>-->
+                <ToggleButton ></ToggleButton>
+            </StackPanel>
         </Grid>
     </Grid>
 
