@@ -1,18 +1,19 @@
 ﻿<phone:PhoneApplicationPage
-    x:Class="ManausBus.View.InitialPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
     xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:maps="clr-namespace:Microsoft.Phone.Maps.Controls;assembly=Microsoft.Phone.Maps"
+    x:Class="ManausBus.View.InitialPage"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
     mc:Ignorable="d"
     shell:SystemTray.IsVisible="True">
-   
+
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.RowDefinitions>
@@ -27,18 +28,18 @@
             <TextBlock Text="Página Inicial" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>-->
 
-        <Image Grid.Row="0" Source="appHeader.png" Stretch="Fill"></Image>
+        <Image Grid.Row="0" Source="appHeader.png" Stretch="Fill"/>
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <maps:Map/>
+            <maps:Map HorizontalAlignment="Left" Margin="-12,0,0,0" VerticalAlignment="Top" Height="auto" Width="468"/>
         </Grid>
-        
+
         <Grid Grid.Row="2" HorizontalAlignment="Center">
             <StackPanel Orientation="Horizontal" Background="#5EB55A" Height="111" Width="Auto">
                 <!--<Button Background="#389533" Margin="10">Ônibus</Button>
                 <Button Background="#389533" Margin="10">Paradas</Button>
                 <Button Background="#389533" Margin="10">Configurações</Button>-->
-                <ToggleButton ></ToggleButton>
+                <ToggleButton />
             </StackPanel>
         </Grid>
     </Grid>
