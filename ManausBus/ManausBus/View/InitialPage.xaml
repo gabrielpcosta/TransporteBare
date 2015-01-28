@@ -30,17 +30,19 @@
 
         <Image Grid.Row="0" Source="appHeader.png" Stretch="Fill"/>
         <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <maps:Map HorizontalAlignment="Left" Margin="-12,0,0,0" VerticalAlignment="Top" Height="auto" Width="468"/>
+        <Grid x:Name="ContentPanel" Grid.Row="1">
+            <maps:Map Name="MapControl" HorizontalAlignment="Stretch" CartographicMode="Road"/>
         </Grid>
 
-        <Grid Grid.Row="2" HorizontalAlignment="Center">
-            <StackPanel Orientation="Horizontal" Background="#5EB55A" Height="111" Width="Auto">
-                <!--<Button Background="#389533" Margin="10">Ônibus</Button>
-                <Button Background="#389533" Margin="10">Paradas</Button>
-                <Button Background="#389533" Margin="10">Configurações</Button>-->
-                <ToggleButton />
-            </StackPanel>
+        <Grid Grid.Row="2" HorizontalAlignment="Stretch" Background="#5EB55A">
+            <Grid HorizontalAlignment="Center">
+                <StackPanel Orientation="Horizontal" >
+                    <Button Background="#389533" Margin="10">Ônibus</Button>
+                    <!--<Button Background="#389533" Margin="10">Paradas</Button>
+                    <Button Background="#389533" Margin="10">Configurações</Button>-->
+                    <!--<ToggleButton />-->
+                </StackPanel>
+            </Grid>
         </Grid>
     </Grid>
 
