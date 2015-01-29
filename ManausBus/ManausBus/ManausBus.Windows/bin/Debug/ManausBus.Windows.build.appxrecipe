@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>NOIABOOK</Machine>
+    <WindowsUser>GabrielPereira</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>dce99fb4-80ae-459e-9369-255a653d4b24</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\gabrielpereira\documents\visual studio 2013\Projects\ManausBus\ManausBus\ManausBus.Windows\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\gabrielpereira\documents\visual studio 2013\Projects\ManausBus\ManausBus\ManausBus.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\gabrielpereira\documents\visual studio 2013\Projects\ManausBus\ManausBus\ManausBus.Windows\bin\Debug\ManausBus.Windows.exe">
+      <PackagePath>ManausBus.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\gabrielpereira\documents\visual studio 2013\Projects\ManausBus\ManausBus\ManausBus.Windows\Assets\appHeader.png">
+      <PackagePath>Assets\appHeader.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\gabrielpereira\documents\visual studio 2013\Projects\ManausBus\ManausBus\ManausBus.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\gabrielpereira\documents\visual studio 2013\Projects\ManausBus\ManausBus\ManausBus.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\gabrielpereira\documents\visual studio 2013\Projects\ManausBus\ManausBus\ManausBus.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\gabrielpereira\documents\visual studio 2013\Projects\ManausBus\ManausBus\ManausBus.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\gabrielpereira\documents\visual studio 2013\Projects\ManausBus\ManausBus\ManausBus.Windows\Toolkit.Content\ApplicationBar.Add.png">
+      <PackagePath>Toolkit.Content\ApplicationBar.Add.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\gabrielpereira\documents\visual studio 2013\Projects\ManausBus\ManausBus\ManausBus.Windows\Toolkit.Content\ApplicationBar.Cancel.png">
+      <PackagePath>Toolkit.Content\ApplicationBar.Cancel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\gabrielpereira\documents\visual studio 2013\Projects\ManausBus\ManausBus\ManausBus.Windows\Toolkit.Content\ApplicationBar.Check.png">
+      <PackagePath>Toolkit.Content\ApplicationBar.Check.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\gabrielpereira\documents\visual studio 2013\Projects\ManausBus\ManausBus\ManausBus.Windows\Toolkit.Content\ApplicationBar.Delete.png">
+      <PackagePath>Toolkit.Content\ApplicationBar.Delete.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\gabrielpereira\documents\visual studio 2013\Projects\ManausBus\ManausBus\ManausBus.Windows\Toolkit.Content\ApplicationBar.Select.png">
+      <PackagePath>Toolkit.Content\ApplicationBar.Select.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\gabrielpereira\documents\visual studio 2013\Projects\ManausBus\ManausBus\ManausBus.Windows\README_FIRST.txt">
+      <PackagePath>README_FIRST.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\gabrielpereira\documents\visual studio 2013\Projects\ManausBus\ManausBus\ManausBus.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\gabrielpereira\documents\visual studio 2013\Projects\ManausBus\ManausBus\ManausBus.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\gabrielpereira\documents\visual studio 2013\Projects\ManausBus\ManausBus\ManausBus.Windows\bin\Debug\ManausBus.Windows.xr.xml">
+      <PackagePath>ManausBus.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\gabrielpereira\documents\visual studio 2013\Projects\ManausBus\ManausBus\ManausBus.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+c:\users\gabrielpereira\documents\visual studio 2013\Projects\ManausBus\ManausBus\ManausBus.Windows\ManausBus.Windows.csproj;neutral
