@@ -7,18 +7,18 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     d:DesignHeight="300"
-    d:DesignWidth="400">
+    d:DesignWidth="250">
 
     <Border CornerRadius="30" Background="#5EB55A" BorderThickness="1,1,1,1">
         <Grid Background="Transparent">
             <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
                 <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
 
             <TextBox Grid.Row="0" Margin="15,20,15,0"></TextBox>
-            <ScrollViewer Grid.Row="1" Margin="15"></ScrollViewer>
+            <ScrollViewer Grid.Row="1" Margin="15" Background="#389533"></ScrollViewer>
         </Grid>
     </Border>
 
