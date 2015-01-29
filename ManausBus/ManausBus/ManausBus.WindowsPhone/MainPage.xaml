@@ -19,18 +19,24 @@
         <Image Grid.Row="0" Source="Assets/appHeader.png" Stretch="Fill"/>
         <Grid x:Name="ContentPanel" Grid.Row="1">
             <Maps:MapControl Name="MapControl" HorizontalAlignment="Stretch"/>
+            <local:SearchDialogueBox x:Name="searchDialogueBox" HorizontalAlignment="Stretch" Margin="30" Grid.Row="1" VerticalAlignment="Stretch" Visibility="Collapsed"/>
         </Grid>
 
         <Grid Grid.Row="2" HorizontalAlignment="Stretch" Background="#5EB55A">
             <Grid HorizontalAlignment="Center">
                 <StackPanel Orientation="Horizontal" >
-                    <Button Background="#389533" Margin="10" Content="Ônibus"/>
-                    <!--<Button Background="#389533" Margin="10">Paradas</Button>
+                    <!--<Button Background="#389533" Margin="10" Content="Ônibus"/>
+                    <Button Background="#389533" Margin="10">Paradas</Button>
                     <Button Background="#389533" Margin="10">Configurações</Button>-->
                     <!--<ToggleButton />-->
-                    <AppBarButton/>
+                    <AppBarButton Name="btnLocateBus" Label="Ônibus" Click="btnLocateBus_Click">
+                        <AppBarButton.Icon>
+                            <BitmapIcon UriSource="ms-appx:///Assets/bus-icon.fw.png" Height="25"/>
+                        </AppBarButton.Icon>
+                    </AppBarButton>
                 </StackPanel>
             </Grid>
         </Grid>
+
     </Grid>
 </Page>

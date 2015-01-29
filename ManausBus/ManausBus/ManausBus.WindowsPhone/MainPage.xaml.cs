@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -43,6 +44,15 @@ namespace ManausBus
             // Windows.Phone.UI.Input.HardwareButtons.BackPressed event.
             // If you are using the NavigationHelper provided by some templates,
             // this event is handled for you.
+        }
+
+        private void btnLocateBus_Click(object sender, RoutedEventArgs e)
+        {
+            if (searchDialogueBox.Visibility == Windows.UI.Xaml.Visibility.Visible)
+            {
+                searchDialogueBox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            }
+            else searchDialogueBox.Visibility = Windows.UI.Xaml.Visibility.Visible;
         }
     }
 }

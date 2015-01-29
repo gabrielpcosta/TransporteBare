@@ -22,6 +22,9 @@
     <AppxPackagedFile Include="E:\Desenvolvimento\TransporteBare\ManausBus\ManausBus\ManausBus.WindowsPhone\Assets\appHeader.png">
       <PackagePath>Assets\appHeader.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Desenvolvimento\TransporteBare\ManausBus\ManausBus\ManausBus.WindowsPhone\Assets\bus-icon.fw.png">
+      <PackagePath>Assets\bus-icon.fw.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Desenvolvimento\TransporteBare\ManausBus\ManausBus\ManausBus.WindowsPhone\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -45,6 +48,9 @@
     <AppxPackagedFile Include="E:\Desenvolvimento\TransporteBare\ManausBus\ManausBus\ManausBus.WindowsPhone\Assets\WideLogo.scale-240.png">
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Desenvolvimento\TransporteBare\ManausBus\ManausBus\ManausBus.WindowsPhone\Assets\bus-icon.jpg">
+      <PackagePath>Assets\bus-icon.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Desenvolvimento\TransporteBare\ManausBus\ManausBus\ManausBus.WindowsPhone\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>

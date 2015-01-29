@@ -95,6 +95,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\appHeader.png" />
+    <Content Include="Assets\bus-icon.fw.png" />
+    <Content Include="Assets\bus-icon.jpg" />
     <Content Include="Assets\Logo.scale-240.png" />
     <Content Include="Assets\SmallLogo.scale-240.png" />
     <Content Include="Assets\SplashScreen.scale-240.png" />
